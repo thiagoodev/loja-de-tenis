@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+}
+
+/*cabeçalho*/
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 18px;
+    color: rgb(245, 245, 245);
+    letter-spacing: 1px;
+    border-bottom: 8px solid rgb(255, 83, 20);
+}
+
+header h1{
+    padding-left: 30px;
+    display: inline-block;
+}
+
+
+.icon img{
+    width: 32px;
+    margin-top: 47px;
+    float: right;
+    margin-right: 110px;
+    cursor: pointer;
+}
+
+.links{
+    float: right;
+    margin-top: 13px;
+    margin-right: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 555;
+}
+
+.links a:hover{
+    color: rgb(255, 83, 21);
+    transition: color 0.4s;
+}
+
+/*grid de produtos*/
+.container{
+    min-height: 80vh;
+    background-color: rgb(220, 220, 220);
+    padding: 50px;
+}
+
+.container-produtos{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 38px;
+}
+
+.card{
+    display: inline-block;
+    width: 31%;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.imagens-produtos{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/*hover imagens*/
+#img-1{
+    background-image: url(../img/tenis1.jpg);
+}
+
+#img-2{
+    background-image: url(../img/tenis2.jpg);
+}
+
+#img-3{
+    background-image: url(../img/tenis3.jpg);
+}
+
+#img-4{
+    background-image: url(../img/tenis4.jpg);
+}
+
+#img-5{
+    background-image: url(../img/tenis5.jpg);
+}
+
+#img-6{
+    background-image: url(../img/tenis6.jpg);
+}
+
+#img-1:hover{
+    background-size: 490px;
+}
+
+#img-2:hover{
+    background-size: 585px;
+}
+
+#img-3:hover{
+    background-size: 480px;
+}
+
+#img-4:hover{
+    background-size: 475px;
+}
+
+#img-5:hover{
+    background-size: 370px;
+}
+
+#img-6:hover{
+    background-size: 370px;
+}
+
+/*descrição produtos*/
+h3{
+    margin-bottom: 10px;
+    color:rgb(19, 19, 19);
+    border-left: 6px solid orangered;
+    padding-left: 4px;
+}
+
+p{
+    font-weight: 555;
+    margin-bottom: 10px;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+}
+
+p .bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*botão*/
+.btn{
+    background-color: rgb(255, 134, 14);
+    width: 200px;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 150, 64);
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+/*rodapé*/
+footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: 555;
+    text-align: center;
+    border-top: 4px solid orangered;
+    margin-top: 50px;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 555;
+}
