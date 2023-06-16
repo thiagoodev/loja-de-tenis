@@ -2,7 +2,7 @@
 
 Meu primeiro projeto de E-commerce
 
-##Linguagens:
+## Linguagens:
 
 HTML
 
